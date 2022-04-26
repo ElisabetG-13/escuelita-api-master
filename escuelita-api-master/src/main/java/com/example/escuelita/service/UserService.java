@@ -30,6 +30,14 @@ public class UserService {
         return userDTOList;
     }
 
+    public UserDTO getUserDTO() {
+        return userDTO;
+    }
+
+    public void setUserDTO(UserDTO userDTO) {
+        this.userDTO = userDTO;
+    }
+
     private UserDTO map(User user){
         UserDTO response = new UserDTO(null, null, null, null, null);
         response.setId(user.getId());

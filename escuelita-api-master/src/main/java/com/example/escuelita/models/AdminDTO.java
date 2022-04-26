@@ -11,7 +11,23 @@ public class AdminDTO {
     public String getPasswordDTO;
 
     public AdminDTO(String userDTO, String passwordDTO) {
-        this.userDTO = userDTO;
+        this.setUserDTO(userDTO);
+        this.setPasswordDTO(passwordDTO);
+    }
+
+    public String getPasswordDTO() {
+        return passwordDTO;
+    }
+
+    public void setPasswordDTO(String passwordDTO) {
         this.passwordDTO = passwordDTO;
+    }
+
+    public String getUserDTO() {
+        return userDTO;
+    }
+
+    public void setUserDTO(String userDTO) {
+        this.userDTO = userDTO;
     }
 }

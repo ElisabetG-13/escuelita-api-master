@@ -34,4 +34,39 @@ public class User {
     public Object getId() {
         return null;
     }
+
+    public Object getName() {
+        return null;
+    }
+
+    public Object getLastname() {
+        return null;
+    }
+
+    public Object getArea() {
+        return null;
+    }
+
+    public Object getEdad() {
+        return null;
+    }
+
+    public Object getStatus() {
+        return null;
+    }
+
+    public void setName(Object name2) {
+    }
+
+    public void setLastname(Object lastname2) {
+    }
+
+    public void setArea(Object area2) {
+    }
+
+    public void setEdad(Object edad2) {
+    }
+
+    public void setStatus(Object status2) {
+    }
 }
